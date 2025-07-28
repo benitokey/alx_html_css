@@ -1,0 +1,46 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General layout and font */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Basic layout styles */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Navigation links inside the header */
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive layout for smartphones */
+.works_on_smartphone main {
+  display: flex;
+  flex-direction: column;
+}
+
+.works_on_smartphone article,
+.works_on_smartphone aside {
+  width: 100%;
+}
